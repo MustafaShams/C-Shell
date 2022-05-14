@@ -1,0 +1,13 @@
+(echo a && echo b)
+(echo a && echo b);
+(echo a && ech b);
+(echo a && echo b) && echo c
+(echo a && echo b) || echo c && echo d
+(echo a && echo b) && (echo c && echo d)
+(echo a && echo b) || (echo c && echo d)
+(echo a && echo b) || (echo c && echo d) && (echo e && echo f)
+(echo a && echo b) || (echo c && echo d) || (echo e && echo f)
+(echo a && echo b) || (echo c && echo d) && (echo e && echo f) && (echo g && echo h)
+(echo a || echo b) || (echo c || echo d) && (echo g && echo h)
+exit;
+

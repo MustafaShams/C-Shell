@@ -1,0 +1,5 @@
+ls; #this is a comment
+ls #here's a comment too
+ls; echo hey; echo hey #this is a comment
+ls -a; echo hello && mkdir test || echo world; git status #this is a comment
+exit; #this is another comment

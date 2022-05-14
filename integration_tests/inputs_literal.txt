@@ -1,0 +1,8 @@
+test -e inputs_exit.txt && mkdir test
+test -f inputs_multiple.txt
+test -d inputs_symbolic.txt
+test -d test
+test -e inputs_exit.txt && ech || echo this will print && test -f inputs_symbolic.txt
+test -e inputs_exit.txt && echo hey && test -f inputs_comment.txt;
+rm -rf test;
+exit;

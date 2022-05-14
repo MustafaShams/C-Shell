@@ -1,0 +1,9 @@
+ls; echo hey; pwd;
+ls; echo hey && pwd;
+ech || pwd;
+ls; echo hey && pwd;
+echo this will print || echo this won't print || echo this won't print || echo this won't print either && echo and so will this;
+echo this will print && ech but this won't && or this && or this && or this && or this || echo and this too
+ls; echo hey && mkdir test || echo world; pwd && echo pwd here || echo after pwd && mkdir test
+echo test1 && ech this won't run || echo test2; pwd; ls || echo this won't run; pwd && echo test3;
+ls -a; echo hello && mkdir test || echo world; git status; exit;

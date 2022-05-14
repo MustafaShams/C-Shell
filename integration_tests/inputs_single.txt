@@ -1,0 +1,7 @@
+ls
+ls;
+echo hey
+echo hey;
+pwd;
+mkdir test;
+exit;

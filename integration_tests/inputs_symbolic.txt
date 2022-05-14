@@ -1,0 +1,8 @@
+[-e inputs_multiple.txt] && mkdir test
+[-d inputs_multiple.txt]
+[-d test]
+[-f inputs_multiple.txt]
+[-f inputs_comment.txt] && echo this will print || echo this won't && pwd;
+[inputs_single.txt] && pwd && [-f inputs_multiple.txt] || echo this won't print;
+[-e inputs_multiple.txt] && [-d inputs_multiple.txt] || [-d test] || [-f input_single.txt] && [inputs_multiple.txt]
+rm -rf test; exit;
