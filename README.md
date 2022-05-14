@@ -1,4 +1,4 @@
-# CS 100 Programming Project
+# C Shell Programming Project
 ![RShell](images/rshell_running.png)
 
 
