@@ -11,7 +11,7 @@ uses a Composite Design Pattern.
 RShell can be installed using the `git clone` command:
 
 ```
-$ git clone https://github.com/cs100/assignment-argon
+$ git clone https://github.com/MustafaShams/C-Shell
 
 $ git submodule init
 
